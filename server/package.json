@@ -1,0 +1,19 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "nodemon server.js",
+    "seeds": "mongo < ./db/seeds.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0",
+    "nodemon": "^2.0.12"
+  },
+  "author": "",
+  "license": "ISC"
+}
